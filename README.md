@@ -6,8 +6,8 @@
 3.Sitios de Referencia
 
 1.
-****Creación de ecommerce "Animalia" para el fomento del cuidado ,brindar servicios y soluciones
-con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, 
+****Creación de ecommerce "Animalia" para el fomento del cuidado ,brindar servicios, venta de productos y soluciones
+con foco hacia la atención y el cuidado animal, estimulando la economía digital y de escala solidaria, 
 apoyada en una logística responsable y eficiente. 
 
 
