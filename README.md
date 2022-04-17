@@ -29,7 +29,7 @@ lo que ellos nos dan, que no es poco y se llama Amor Incondicional.
 
 2.
 Copyrights y Derechos de autor reservados a:
-Maria Eugenia Bruno, Fernando Miguez, Ariel Antequeira, Mariano Vélez.
+Maria Eugenia Bruno, Fernando Miguez, Ariel Antequiera, Mariano Vélez.
 
 3.
 www.veterinariasebastian.com
