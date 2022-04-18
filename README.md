@@ -7,12 +7,12 @@
 
 1.
 ****Creación de ecommerce "Animalia" para el fomento del cuidado ,brindar servicios y soluciones
-con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, 
-apoyada en una logística responsable y eficiente. 
+con foco hacia la atención animal, estimulando la economía digital y de escala solidaria,
+apoyada en una logística responsable y eficiente.
 
 
-***Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente 
-nuestro futuro. 
+***Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente
+nuestro futuro.
 
 
 ****Nuestro público target son todos aquellos pet lovers, 
