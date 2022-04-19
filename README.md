@@ -5,29 +5,19 @@
 2. Colaboradores  
 3. Sitios de Referencia  
   
+  
 ---  
   
 1.
-Creación de ecommerce "Animalia" para el fomento del cuidado ,brindar servicios y soluciones
-con foco hacia la atención animal, estimulando la economía digital y de escala solidaria,
-apoyada en una logística responsable y eficiente.
+Creación de ecommerce "Animalia" para el fomento del cuidado ,brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
 
 
-***Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente
-nuestro futuro.***
+***Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.***
 
 
-Nuestro público target son todos aquellos pet lovers, 
-cuidadores, entrenadores de animales, instituciones con y sin fines de lucro 
-que tengan como objetivo, alimentar. 
+Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores de animales, instituciones con y sin fines de lucro que tengan como objetivo, alimentar, cuidar y dar un mundo de posibilidades para aquellos animales que han nacido en circunstancias precarias o menos favorecidas, con menores recursos.
 
-cuidar y dar un mundo de posibilidades 
-para aquellos animales que han nacido en circunstancias precarias o favorecidas, 
-con menores recursos
-
-crear soluciones reales para que tengan un entorno digno 
-que les permita crecer y así poder contribuir y devolverles un poco de todos 
-lo que ellos nos dan, que no es poco y se llama Amor Incondicional.  
+Buscamos así crear soluciones reales para que tengan un entorno digno que les permita crecer y así poder contribuir y devolverles un poco de todo lo que ellos nos dan, que no es poco y se llama Amor Incondicional.  
   
   
 2.  
