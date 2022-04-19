@@ -1,5 +1,7 @@
 # Grupo 3: Animalia.
 
+![Uploading e9abeeb4-6015-4d65-9486-77fc40ca5f62.jpg…]()
+
 ## Tabla de Contenidos
 1. Info General  
 2. Colaboradores  
@@ -13,6 +15,7 @@ Creación de ecommerce "Animalia" para el fomento del cuidado ,brindar servicios
 
 
 ***Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.***
+
 
 
 Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores de animales, instituciones con y sin fines de lucro que tengan como objetivo, alimentar, cuidar y dar un mundo de posibilidades para aquellos animales que han nacido en circunstancias precarias o menos favorecidas, con menores recursos.
