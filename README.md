@@ -1,9 +1,9 @@
 # grupo3Animalia
 
 ## Tabla de Contenidos
-1.Info General  
-2.Colaboradores  
-3.Sitios de Referencia  
+1. Info General  
+2. Colaboradores  
+3. Sitios de Referencia  
 
 
 1.
@@ -33,8 +33,8 @@ Copyrights y Derechos de autor reservados a:
 Maria Eugenia Bruno, Fernando Miguez, Ariel Antequiera, Mariano Vélez.
 
 3.
-www.veterinariasebastian.com
-www.petsmart.com
-www.miamipetconcierge.com
-www.kiwoko.com
-www.natural-life.com.ar
+www.veterinariasebastian.com  
+www.petsmart.com  
+www.miamipetconcierge.com  
+www.kiwoko.com  
+www.natural-life.com.ar  
