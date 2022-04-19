@@ -8,7 +8,7 @@
 ![e9abeeb4-6015-4d65-9486-77fc40ca5f62](https://user-images.githubusercontent.com/100479971/164115117-5990176e-ac1e-4db5-927b-f222dafb2893.jpg)
  
   
-1.
+######1.
 Creación de ecommerce "Animalia" para el fomento del cuidado ,brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
 
 
@@ -21,13 +21,13 @@ Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores 
 Buscamos así crear soluciones reales para que tengan un entorno digno que les permita crecer y así poder contribuir y devolverles un poco de todo lo que ellos nos dan, que no es poco y se llama Amor Incondicional.  
   
   
-2.  
+######2.  
   
 Copyrights y Derechos de autor reservados a:
 Maria Eugenia Bruno, Fernando Miguez, Ariel Antequiera, Mariano Vélez.
 
   
-3.
+######3.
   
 www.veterinariasebastian.com  
 www.petsmart.com  
