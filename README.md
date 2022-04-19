@@ -1,4 +1,4 @@
-# grupo3Animalia
+# Grupo 3: Animalia.
 
 ## Tabla de Contenidos
 1. Info General  
