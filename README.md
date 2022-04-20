@@ -23,7 +23,9 @@ Buscamos así crear soluciones reales para que tengan un entorno digno que les p
   
   
 **2.**  
-  
+Enlace a tableros de trabajo:
+                             Trello: https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia
+                             
 Copyrights y Derechos de autor reservados a:  
 Maria Eugenia Bruno, Fernando Miguez, Ariel Antequiera, Mariano Vélez.
 
