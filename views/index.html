@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos: idiomas, adaptabilidad, estilos, tipografías, iconos y título -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="/images/icon.png">
+    <title>Animalia - Lo mejor para tus mascotas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Aquí comienza el header: logo, navbars y campo de búsqueda -->
+    <header>
+        <div class="navbarSuperior">
+            <a href="./views/login.html"><i class="fa-solid fa-user-check"></i> Ingresar</a>
+            <p> | </p>
+            <a href="./views/register.html"><i class="fa-solid fa-user-plus"></i> Registrarse</a>
+            <p> | </p>
+            <a href="#"><i class="fa-solid fa-heart"></i> Favoritos</a>
+            <p> | </p>
+            <a href="/views/productCart.html"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
+            &nbsp
+        </div>
+
+        <div class="navbarInferior">
+            <div class="logo"><a href="/"><img src="/images/logo.png" alt="Animalia"></a></div>
+
+            <nav class="secciones">
+
+                <ul>
+                    <li><a href="#"><img src="/images/Iconos-Menu-perro.png">
+                            Perros</a></li>
+                    <li><a href="#"><img src="/images/Iconos-Menu-gato.png">
+                            Gatos</a></li>
+                    <li><a href="#"><img src="/images/Iconos-Menu-pajaro.png">
+                            Aves</a></li>
+                    <li><a href="#"><img src="/images/Iconos-Menu-Roedor.png">
+                            Roedores</a></li>
+                    <li><a href="#"><img src="/images/Iconos-Menu-peces.png">
+                            Peces</a></li>
+                    <li><a href="#"><img src="/images/Iconos-Menu-oferta.png">
+                            Ofertas</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="burguer-menu"><i class="fa-solid fa-bars"></i></div>
+
+            <form action="#" method="POST">
+                <input type="search" placeholder="Búsqueda"></input> <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+    </header>
+
+    <!-- Aquí comienza el main: banner, slider con ofertas, cards de productos y enlaces varios -->
+    <main>
+        <div class="banner"><img src="/images/banner2.png"></div>
+
+        <div class="beneficios">
+            <div> <img src="/images/tarjetas.svg">
+                <p>Múltiples medios de pago y promociones</p>
+
+            </div>
+            <div> <img src="/images/sucursal.svg">
+                <p>Retiro con descuentos en cualquiera de nuestras sucursales</p>
+            </div>
+            <div> <img src="/images/camion.svg">
+                <p>Envíos en el día para toda CABA y GBA</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="slide-item">
+                    <img src="/images/slider1.png">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="/images/slider2.png">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="/images/slider3.jpg">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+            </div>
+        </div>
+        <br>
+        <section>
+            <h3 class="titulares">No te pierdas nuestras increíbles ofertas</h3>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/proplangato.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">PRO PLAN GATO ADULTO 7.5 KG</p>
+                        </a>
+                        <p class="precios">$8.156</p>
+                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/agilitysardina.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">AGILITY CATS SARDINA 340 GR</p>
+                        </a>
+                        <p class="precios">$246</p>
+                        <p class="descuentos">¡¡10% OFF!!: $221</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/proplanperro.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">PRO PLAN PERRO ADULTO 15 KG</p>
+                        </a>
+                        <p class="precios">$8.908</p>
+                        <p class="descuentos">¡¡15% OFF!!: $7572</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/purinaperro.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">PURINA DENTALIFE PERRO 119 GR</p>
+                        </a>
+                        <p class="precios">$8.156</p>
+                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/purinaperro.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">PURINA DENTALIFE PERRO 119 GR</p>
+                        </a>
+                        <p class="precios">$8.156</p>
+                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/proplangato.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">PRO PLAN GATO ADULTO 7.5 KG</p>
+                        </a>
+                        <p class="precios">$8.156</p>
+                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/agilitysardina.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">AGILITY CATS SARDINA 340 GR</p>
+                        </a>
+                        <p class="precios">$246</p>
+                        <p class="descuentos">¡¡10% OFF!!: $221</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="card">
+                    <a href="./views/productDetail.html"><img src="/images/proplanperro.webp"></a>
+                    <div class="card-body">
+                        <i class="fa-solid fa-truck"></i>
+                        <a href="./views/productDetail.html">
+                            <p class="descripciones">PRO PLAN PERRO ADULTO 15 KG</p>
+                        </a>
+                        <p class="precios">$8.908</p>
+                        <p class="descuentos">¡¡15% OFF!!: $7572</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+        <br>
+    </main>
+
+    <!-- Aquí comienza el footer: lista de correo, links de información y redes sociales -->
+    <footer>
+        <br>
+        <div class="newsletter">
+            <p><i class="fa-solid fa-envelope">&nbsp</i>Suscríbite para recibir ofertas y novedades:</p>
+
+            <form action="#" method="GET">
+                <input type="text" placeholder="Nombre completo">
+                &nbsp
+                <input type="email" placeholder="Dirección de email">
+                <button type="submit" value="Submit">Enviar</button>
+            </form>
+
+        </div>
+        <br>
+        <br>
+
+        <div class="enlaces">
+            <section class="nosotros">
+                <h4>Nosotros</h4>
+                <br>
+                <ul>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Sucursales</a></li>
+                </ul>
+            </section>
+
+            <section class="ayuda">
+                <h4>Ayuda</h4>
+                <br>
+                <ul>
+                    <li><a href="#">Medios de pago</a></li>
+                    <li><a href="#">Envios</a></li>
+                </ul>
+            </section>
+
+            <section class="cuenta">
+                <h4>Cuenta</h4>
+                <br>
+                <ul>
+                    <li><a href="#">Mis pedidos</a></li>
+                    <li><a href="#">Seguimiento</a></li>
+                    <li><a href="#">Favoritos</a></li>
+                </ul>
+            </section>
+
+            <section class="redes">
+                <h4>¡Seguínos!</h4>
+                <br>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+</body>
+
+</html>

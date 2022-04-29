@@ -1,0 +1,27 @@
+{
+  "name": "grupo3animalia",
+  "version": "1.0.0",
+  "description": "Animalia, el mejor sitio para tus mascotas. E-commerce (pet-shop).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antariex/grupo3Animalia.git"
+  },
+  "keywords": [
+    "Animalia"
+  ],
+  "author": "Grupo 3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antariex/grupo3Animalia/issues"
+  },
+  "homepage": "https://github.com/Antariex/grupo3Animalia#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15"
+  }
+}
