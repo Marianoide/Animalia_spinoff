@@ -350,14 +350,14 @@ footer {
     flex-wrap: wrap;
 }
 
-.enlaces a {
+.enlaces a, .legales a {
     text-decoration: none;
     color: var(--blanco);
     margin: 11px;
     padding: 1px;
 }
 
-.enlaces a:hover {
+.enlaces a:hover, .legales a:hover {
     color: var(--amarillo);
 }
 
@@ -365,6 +365,11 @@ footer {
     padding: 5px;
     list-style: none;
     text-align: center;
+}
+
+.legales {
+    text-align: left;
+    padding: 5px;
 }
 
 /* Estilos para diseño adaptativo */
