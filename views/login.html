@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/styles-login.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="icon" href="/images/icon.png">
     <title>Animalia - Lo mejor para tus mascotas</title>
@@ -62,30 +62,41 @@
     <!-- Aquí comienza el main -->
     <main>
 
-        <br>
-        <h1>[ Contenido de la página de login ]</h1>
-        <br>
+
+        <div class="formulario login">
+
+            <h2>¡Hola! Completá tus datos para ingresar</h2>
+            <br>
+            <form method="POST" action="#">
+                <br>
+                <p><input type="text" name="usuario" placeholder="E-mail  o  usuari@" required></input></p>
+                <p><input type="password" name="password" placeholder="Contraseña" required></input></p>
+                <br>
+                <input type="checkbox" name="datosUsuario" value="1" checked>
+                <label>Recordar mis datos</label>
+                <br>
+                <button class="sendButton" type="submit"><a href="/">Enviar</a></button>
+                <br>
+                <br>
+                <p>¿Olvidaste tu contraseña?</p>
+                <p> Recuperar contraseña</p>
+            </form>
+            <br>
+            <br>
+            <h3>¿Primera vez en Animalia?</h3>
+            <br>
+            <h3 href="/views/register.html" class="crearPerfil">Creá tu cuenta</h3>
+            <br>
+            <br>
+        </div>
 
     </main>
 
     <!-- Aquí comienza el footer: lista de correo, links de información y redes sociales -->
     <footer>
         <br>
-        <div class="newsletter">
-            <p><i class="fa-solid fa-envelope">&nbsp</i>Suscríbite para recibir ofertas y novedades:</p>
-
-            <form action="#" method="GET">
-                <input type="text" placeholder="Nombre completo">
-                &nbsp
-                <input type="email" placeholder="Dirección de email">
-                <button type="submit" value="Submit">Enviar</button>
-            </form>
-
-        </div>
         <br>
-        <br>
-
-        <div class="enlaces">
+            <div class="enlaces">
             <section class="nosotros">
                 <h4>Nosotros</h4>
                 <br>
