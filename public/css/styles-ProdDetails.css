@@ -1,6 +1,53 @@
-/* Estilos universales */
+/*Estilos pag Prod Details MARIANO*/
 
-* {
+div .detail__container {
+    max-width: 100%;
+}
+
+.card {
+    background-color: var(--blanco);
+    display: inline-block;
+    max-width: 100%;
+    border: 3px solid var(--verde);
+    margin: 6px 6px;
+}
+
+.info__delprod {
+    color: #3c3c3c;
+    padding: 18px;
+    line-height: 1.5em;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.detail_prod__imag{
+    width: auto;
+}
+
+.cuotas__container i {
+    padding: 5px;
+    color: #54A4CB;
+    width: 1.5em;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.menu__cantidad{
+    color: #C9914B;
+    font-family: 'Roboto', serif
+
+}
+
+.descripciones{
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+ /* Estilos universales */
+
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -212,27 +259,17 @@ article {
     position: relative;
 }
 
-.card {
-    background-color: var(--blanco);
-    display: inline-block;
-    max-width: 290px;
-    border: 1px solid var(--verde);
-    margin: 4px 2px;
-}
+
 
 .card:hover {
     border: 1px solid var(--celeste);
 }
 
 .card img {
-    width: 100%;
+    width: 50%;
 }
 
-.card-body {
-    padding: 10px;
-    background-color: var(--blanco);
-    display: inline-block;
-}
+
 
 .fa-truck {
     color: var(--celeste);
@@ -378,11 +415,13 @@ footer {
 /* mobile */
 
 @media (min-width: 320px) {
+   
 
 }
 
 /* tablet */
 @media (min-width: 768px) {
+    
 }
 
 /* desktop */
@@ -395,8 +434,6 @@ footer {
     .secciones {
         display: flex;
     }
+
+    
 }
-
-
-
-
