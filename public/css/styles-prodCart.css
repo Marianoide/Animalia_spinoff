@@ -1,7 +1,4 @@
 /*Estilo Fernando Carrito*/
-
-
-
 .encabezado {
     display:flex;
     position: relative;
@@ -24,7 +21,6 @@
 .thead{
     font-weight: bold;
     font-size: 18px;
-    
    }
 
 .tint img{
@@ -32,7 +28,6 @@
     padding: auto;
     vertical-align: middle;
     font-size: 10px;
-   
 }
 
 .ttotal {
@@ -58,15 +53,15 @@
         color: var(--blanco);
         border-radius: 20px;
     }
-    button:hover {
-        background-color: var(--celeste);
-        border: 1px solid var(--celeste);
-        color: var(--amarillo);
+button:hover {
+    background-color: var(--celeste);
+    border: 1px solid var(--celeste);
+    color: var(--amarillo);
     }
 
 /*acá termina estilo Fernando*/
 
-/* Estilos universales
+/* Estilos universales*/
 * {
     box-sizing: border-box;
     margin: 0;
