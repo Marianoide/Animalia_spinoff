@@ -62,6 +62,11 @@
     display: none;
 }
 
+.secciones img:hover {
+        transition: 0.5s;
+        transform: rotate(360deg);
+}
+
 .secciones ul {
     display: flex;
     list-style: none;
@@ -234,27 +239,6 @@ article {
     display: inline-block;
 }
 
-.fa-truck {
-    color: var(--celeste);
-    border: 1px solid var(--celeste);
-    border-radius: 50%;
-    background-color: var(--blanco);
-    position: absolute;
-    left: 11px;
-    top: 11px;
-    display: inline-block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    box-sizing: border-box;
-}
-
-.fa-truck:hover {
-    transition: 0.5s;
-    transform: rotate(360deg);
-}
-
 .descripciones {
     font-size: 16px;
     color: var(--verde);
@@ -284,7 +268,6 @@ article {
 
 .descuentos:hover {
     color: var(--rosa);
-    font-weight: 600;
 }
 
 .card-body button {
@@ -300,7 +283,6 @@ article {
 .card-body button:hover {
     background-color: var(--celeste);
     border: 1px solid var(--celeste);
-    color: var(--amarillo);
 }
 
 .card-body a {
@@ -321,7 +303,6 @@ footer {
     font-size: 16px;
     padding: 3px;
     align-items: center;
-    padding: 3px;
 }
 
 .newsletter input {
