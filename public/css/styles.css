@@ -131,10 +131,25 @@
     padding: 6px;
     margin: 0px auto;
     font-weight: 550;
-    color: var(--gris);
-    max-width: 98%;
+    color: var(--blanco);
+    max-width: 100%;
     gap: 1em;
+    background-color: var(--celeste);
+    font-size: 12px;
 }
+
+.beneficios i {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--blanco);
+    text-align: right;
+    padding: 2px;
+    margin: 3px;
+}
+    
+.beneficios i:hover {
+        color: var(--amarillo);
+    }
 
 .slide {
     position: relative;
@@ -209,6 +224,7 @@ section {
 .titulares {
     color: var(--rosa);
     padding-bottom: 15px;
+    font-size: 25px;
 }
 
 article {
@@ -221,8 +237,9 @@ article {
     background-color: var(--blanco);
     display: inline-block;
     max-width: 290px;
-    border: 1px solid var(--verde);
+    border: 2px solid var(--verde);
     margin: 4px 2px;
+    border-radius: 4px;
 }
 
 .card:hover {

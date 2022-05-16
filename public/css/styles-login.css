@@ -1,3 +1,6 @@
+/*Login Maru*/
+
+/* Estilos generales*/
 
 * {
     box-sizing: border-box;
@@ -16,7 +19,7 @@
     --negro: #000;
 }
 
-/* Estilos para elementos del header */
+/* Estilos header */
 
 .navbarSuperior {
     display: flex;
@@ -106,7 +109,15 @@
     font-size: 1em;
 }
 
-/* Styles FORMULARIOS REGISTER*/
+/* Estilos Formularios - Register*/
+
+.barraSeparacion {
+    background-color: var(--celeste);
+    padding: 14px;
+    margin: 0px auto;
+    max-width: 550;
+
+}
 
 .formulario {
     text-align: left;
@@ -122,7 +133,8 @@ font-size: 15px;
 .formulario h2 {
     text-align: center;
     margin: 2px;
-    color: var(--celeste);
+    color: var(--rosa);
+    font-size: 24px;
 }
 
 .formulario input {
@@ -144,8 +156,9 @@ font-size: 15px;
 .formulario button {
     padding: 8px 10px;
     margin: 8px;
-    background-color: var(--gris);
-    border: 1px solid var(--gris);
+    background-color: var(--verde);
+    border: 1px solid var(--verde);
+    border-radius: 6px;
     font-family: 'Roboto', serif;
     
 }
@@ -169,7 +182,7 @@ font-size: 15px;
 
 .resetButton:hover,
 .sendButton:hover {
-    background-color: var(--gris);
+    background-color: var(--celeste);
 }
 
 .crearPerfil,
@@ -180,7 +193,7 @@ font-size: 15px;
     font-weight: bold;
 }
 
-/* Estilos para el footer */
+/* Estilos footer */
 
 footer {
     background-color: var(--celeste);
@@ -222,6 +235,11 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.enlaces h4 {
+    
+    text-align: center;
 }
 
 .enlaces a, .legales a {

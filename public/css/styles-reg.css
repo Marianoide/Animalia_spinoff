@@ -1,143 +1,6 @@
-/* CSS Form de Registro Mariano */
+ /* Estilos universales */
 
-
-.form__reg {
-    background: rgba(form-bg,.9);
-    padding: 20px;
-    max-width:600px;
-    margin:40px auto;
-    border-radius: br;
-    box-shadow: 0 4px 10px 4px;
-    rgba (form-bg,.3); 
-  }
-
-  .tab__group {
-    list-style: none;
-    font-family: 'Roboto', serif;
-    margin:0 0 40px 0;
-    li a {
-      display: block;
-      text-decoration:none;
-      padding: 15px;
-      background:rgba(gray-light,.25);
-      color: gray-light;
-      font-size: 20px;
-      float:left;
-      width: 50%;
-      text-align:center;
-      cursor:pointer;
-      transition: 5s ease;
-      &:hover {
-        background: main-dark;
-        color: white;
-      }
-    }
-    .active a {
-      background:$main;
-      color:$white;
-    }
-  }
-  .register__title {
-      font-family: 'Roboto', serif;
-      text-align:center;
-      color: #C9914B;
-      font-weight: thin;
-      margin: 0%;
-  }
-  
-  label {
-    position:absolute;
-    transform:translateY(6px);
-    left:13px;
-    color:rgba(white,.5);
-    transition:all 0.25s ease;
-    pointer-events: none;
-    font-size:22px;
-  }
-  .req {
-      margin: 4px;
-      color: main;
-  }
-  label.active {
-    transform:translateY(50px);
-    left:2px;
-    font-size:14px;
-  }
-  input, textarea {
-    font-size:22px;
-    display:block;
-    width:100%;
-    height:100%;
-    padding:5px 10px;
-    background:none;
-    background-image:none;
-    border:1px solid gray-light;
-    color: white;
-    border-radius:0;
-    transition:border-color .25s ease, box-shadow .25s ease;
-  }
-  
-  textarea {
-    border: 2px solid gray-light;
-    resize vertical;
-  }
-  
-  .field-wrap {
-    position:relative;
-    margin-bottom:40px;
-    width: 100%;
-    border-style: none;
-  }
-  
-  .top__reg {
-      after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-  }
-  
-  .titulares__reg{
-      color: #54A4CB;
-      padding-bottom: 20px;
-      font-family: 'Roboto', serif;
-      text-align: left;
-  }
-  
-  .button {
-    border:0;
-    outline:none;
-    border-radius: 10px;
-    padding: 15px;
-    font-size: medium;
-    font-weight: bold;
-    letter-spacing: 0.5em;
-    color: white;
-    background-color: #54A4CB;
-  }
-
-  .button-block {
-    display:block;
-    width:50%;
-    margin-bottom: 20px;
-    align-items: flex-end ;
-  }
-
-  .forgot__reg {
-    margin-top:-20px;
-    text-align:right;
-  }
-  
-  .container__reg input{
-      width: 80%;
-      text-align: center;
-      border-radius: 20px;
-  }
-
-
-  /* Estilos universales */
-
-* {
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -244,205 +107,82 @@
     font-size: 1em;
 }
 
-/* Estilos para elementos del main */
 
-.banner img {
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 3px;
-}
+/* CSS Form de Registro Mariano */
 
-.beneficios {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    padding: 6px;
-    margin: 0px auto;
-    font-weight: 550;
-    color: var(--gris);
-    max-width: 98%;
-    gap: 1em;
-}
-
-.slide {
-    position: relative;
-    margin-top: 0;
-}
-
-.slide-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-}
-
-.slide-open:checked+.slide-item {
-    position: static;
-    opacity: 100;
-}
-
-.slide-item {
-    position: absolute;
-    opacity: 0;
-}
-
-.slide-item img {
-    display: block;
-    max-height: 290px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.slide-control {
-    background: var(--celeste);
-    border-radius: 50%;
-    color: var(--blanco);
-    cursor: pointer;
-    display: none;
-    font-size: 30px;
-    height: 25px;
-    line-height: 20px;
-    position: absolute;
-    top: 25%;
-    text-align: center;
-    width: 25px;
-    z-index: 10;
-}
-
-.slide-control.prev {
-    left: 1%;
-}
-
-.slide-control.next {
-    right: 1%;
-}
-
-.slide-control:hover {
-    background: var(--celeste);
-    color: var(--amarillo);
-}
-
-#slide-1:checked~.control-1,
-#slide-2:checked~.control-2,
-#slide-3:checked~.control-3 {
-    display: block;
-}
-
-section {
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-}
-
-.titulares {
-    color: var(--rosa);
-    padding-bottom: 15px;
-}
-
-article {
-    margin: 4px 4px;
-    display: inline-block;
-    position: relative;
-}
-
-.card {
-    background-color: var(--blanco);
-    display: inline-block;
-    max-width: 290px;
-    border: 1px solid var(--verde);
-    margin: 4px 2px;
-}
-
-.card:hover {
-    border: 1px solid var(--celeste);
-}
-
-.card img {
-    width: 100%;
-}
-
-.card-body {
-    padding: 10px;
-    background-color: var(--blanco);
-    display: inline-block;
-}
-
-.fa-truck {
-    color: var(--celeste);
-    border: 1px solid var(--celeste);
-    border-radius: 50%;
-    background-color: var(--blanco);
-    position: absolute;
-    left: 11px;
-    top: 11px;
-    display: inline-block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    box-sizing: border-box;
-}
-
-.fa-truck:hover {
-    transition: 0.5s;
-    transform: rotate(360deg);
-}
-
-.descripciones {
-    font-size: 16px;
-    color: var(--verde);
-    display: block;
-    font-weight: 600;
-}
-
-.descripciones:hover {
-    color: var(--celeste);
-}
-
-.precios {
-    font-size: 16px;
-    font-weight: 600;
-    display: block;
-    width: 100%;
-    text-decoration: line-through;
-    padding: 3px;
-}
-
-.descuentos {
-    font-size: 16px;
-    display: block;
-    width: 100%;
-    padding: 5px;
-}
-
-.descuentos:hover {
-    color: var(--rosa);
-    font-weight: 600;
-}
-
-.card-body button {
-    padding: 8px 12px;
-    margin: 8px;
-    background-color: var(--verde);
-    border: 1px solid var(--verde);
-    font-family: 'Roboto', serif;
-    color: var(--blanco);
-    border-radius: 20px;
-}
-
-.card-body button:hover {
+.barraSeparacion {
     background-color: var(--celeste);
-    border: 1px solid var(--celeste);
-    color: var(--amarillo);
+    padding: 14px;
+    margin: 0px auto;
+    max-width: 550;
+
 }
 
-.card-body a {
-    text-decoration: none;
+
+.formulario {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 98%;
 }
+
+.formulario p {
+font-size: 15px;
+
+}
+.formulario h3 {
+    text-align: center;
+    font-size: 24px ;
+    color: var(--rosa);
+    margin: 2px;
+}
+
+.formulario input {
+    display: inline-block;
+    background-color: var(--blanco);
+    padding: 15px 60px 15px 30px;
+    margin: 9px 9px;
+    border: solid 1.5px var(--verde);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.formulario input:focus {
+    color: #EAC926;
+}
+
+.formulario button {
+    background-color: var(--verde);
+    color: white;
+    border: 1px solid var(--verde);
+    padding: 12px 14px;
+    margin: 0 5px;
+    border-radius: 6px;
+
+}
+
+.formulario button a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    text-align: center;
+}
+
+.resetButton:hover,
+.sendButton:hover {
+    background-color: var(--celeste);
+}
+
+.crearPerfil,
+.irALogin {
+    text-decoration: none;
+    color:var(--rosa);
+    font-size: 14px;
+    font-weight: bold;
+}
+
 
 /* Estilos para el footer */
 
@@ -452,40 +192,15 @@ footer {
     font-size: 16px;
 }
 
-.newsletter {
-    display: flex;
-    justify-content: space-around;
-    font-size: 16px;
-    padding: 3px;
-    align-items: center;
-    padding: 3px;
-}
-
-.newsletter input {
-    padding: 6px 8px 7px;
-    font-size: 14px;
-    border: 1px solid var(--blanco);
-    background-color: var(--blanco);
-    color: var(--gris);
-}
-
-.newsletter button {
-    padding: 8px 10px;
-    margin: 8px;
-    background-color: var(--gris);
-    border: 1px solid var(--gris);
-    font-family: 'Roboto', serif;
-    color: var(--blanco);
-}
-
-.newsletter button:hover {
-    color: var(--amarillo)
-}
 
 .enlaces {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.enlaces h4 {
+    text-align: center ;
 }
 
 .enlaces a, .legales a {

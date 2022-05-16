@@ -59,124 +59,110 @@
         </div>
     </header>
 
-    <!-- Aquí comienza el main -->
+    <!-- Aquí comienza el main FORMULARIO REGISTRO-->
     <main>
-        <!--Aqui comienza el form de registro de Mariano-->
-        <div class="container__reg">
-        <div class="register__title">
-            <h2>¡Hazte miembro de la comunidad Animalia y disfruta de sus beneficios!</h2>
+        <div class="barraSeparacion"></div>
+        <div class="formulario">
+
+            <h3>Completá los siguientes datos para crear tu cuenta:</h3>
+            <br>
+            <form method="POST" action="#">
+
+                <label>Nombre y apellido</label>
+                <p><input type="text" name="nombre" placeholder="Ej: Perros Gatos" minlength="4" maxlength="30" required>
+                    </input></p>
+                <br>
+                <label>Nombre de usuari@</label>
+                <p><input type="text" name="usuario" placeholder="Ej: cachorro" minlength="4" maxlength="12" required>
+                    </input></p>
+                <br>
+                <label>E-mail</label>
+                <p><input type="email" name="email" placeholder="Ej: perro@gato.com.ar" required>
+                    </input></p>
+                <br>
+                <label>Fecha de nacimiento</label>
+                <p><input type="date" name="fecha" value="2020-03-19" required>
+                    </input></p>
+                <br>
+                <label>Contraseña: </label>
+                <p><input type="password" name="password" placeholder="Al menos 6 caracteres" minlength="6"
+                        maxlength="10" required>
+                    </input></p>
+                <br>
+                <label>Confirmar: &nbsp&nbsp</label>
+                <p><input type="password" name="repassword" placeholder="Confirmá tu contraseña" minlength="6"
+                        maxlength="10" required>
+                    </input></p>
+                <p>(i) La contraseña debe tener mínimo 6 caracteres.</p>
+                <br>
+                <br>
+
+                <button type="reset" class="resetButton">
+                    Borrar
+                </button>
+
+                <button type="submit" class="sendButton"><a href="/">
+                        Enviar
+                    </a></button>
+            </form>
+            <br>
+            <br>
+            <p>¿Ya tenés cuenta cuenta con nosotros? <a href="/views/login.html" class="irALogin">Iniciar sesión</a>
+            </p>
+            <br>
         </div>
-        <div class="form__reg">
-            <div class="tab-content">
-              <div class="signup__reg">
-                <div class="titulares__reg">
-                    <h3>Beneficios para nuevos socios</h3>
-                </div>
-                <form action="/" method="post">
-                    <div class="top__reg">
-                      <div class="field-wrap">
-                        <label>
-                        Mi nombre es...<span class="req"></span>
-                        </label>
-                        <input type="text" required autocomplete="off" />
-                      </div>
-                      <div class="field-wrap">
-                        <label>Mi mascota se llama...<span class="req"></span></label>
-                        <input type="text"required autocomplete="off"/>
-                      </div>
-                    </div>
-                    <div class="field-wrap">
-                      <label>
-                        Em@il...<span class="req"></span>
-                      </label>
-                      <input type="email"required autocomplete="off"/>
-                    </div>
-                    <div class="field-wrap">
-                      <label>Contraseña requerida...<span class="req"></span></label>
-                      <input type="password"required autocomplete="off"/>
-                    </div>
-                    <button type="submit" class="button button-block">Hola Animalia</button>
-                </form>
-            </div>
-                  <div class="signup__reg">
-                      <div class="titulares__reg">
-                        <h3>Quiero ver mis pedidos</h3>
-                      </div>
-                    <form action="/" method="post">
-                      <div class="field-wrap">
-                      <label>
-                        Socio número...<span class="req"></span>
-                      </label>
-                      <input type="email"required autocomplete="off"/>
-                    </div>
-                    <div class="field-wrap">
-                        <label>Contraseña...<span class="req"></span></label>
-                        <input type="password"required autocomplete="off"/>
-                    </div>
-                    <button class="button button-block"/>Log In</button>
-                    <br>
-                    <p class="forgot__reg"><a href="#">¿Olvidaste tu contraseña?</a></p>
-                </form>
-            </div>
+        <!--Aqui termina el formulario de registro MARIANO-->
+    </main>
+    <!-- Aquí comienza el footer: lista de correo, links de información y redes sociales -->
+    <footer>
+        <br>
+        <div class="enlaces">
+            <section class="nosotros">
+                <h4>Nosotros</h4>
+                <br>
+                <ul>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Sucursales</a></li>
+                </ul>
+            </section>
+
+            <section class="ayuda">
+                <h4>Ayuda</h4>
+                <br>
+                <ul>
+                    <li><a href="#">Medios de pago</a></li>
+                    <li><a href="#">Envios</a></li>
+                </ul>
+            </section>
+
+            <section class="cuenta">
+                <h4>Cuenta</h4>
+                <br>
+                <ul>
+                    <li><a href="#">Mis pedidos</a></li>
+                    <li><a href="#">Seguimiento</a></li>
+                    <li><a href="#">Favoritos</a></li>
+                </ul>
+            </section>
+
+            <section class="redes">
+                <h4>¡Seguínos!</h4>
+                <br>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </section>
         </div>
-    </div>
-</div>
-    <!--Aqui termina el formulario de registro MARIANO-->
-</main>
-<!-- Aquí comienza el footer: lista de correo, links de información y redes sociales -->
-<footer>
-    <div class="enlaces">
-        <section class="nosotros">
-            <h4>Nosotros</h4>
-            <br>
-            <ul>
-                <li><a href="#">Quiénes somos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Sucursales</a></li>
-            </ul>
-        </section>
-
-        <section class="ayuda">
-            <h4>Ayuda</h4>
-            <br>
-            <ul>
-                <li><a href="#">Medios de pago</a></li>
-                <li><a href="#">Envios</a></li>
-            </ul>
-        </section>
-
-        <section class="cuenta">
-            <h4>Cuenta</h4>
-            <br>
-            <ul>
-                <li><a href="#">Mis pedidos</a></li>
-                <li><a href="#">Seguimiento</a></li>
-                <li><a href="#">Favoritos</a></li>
-            </ul>
-        </section>
-
-        <section class="redes">
-            <h4>¡Seguínos!</h4>
-            <br>
-            <ul>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-            </ul>
-        </section>
-    </div>
-    <br>
-    <div class="legales__register">
-        <p>&nbsp © Pet Shop Animalia - Lo mejor para tus mascotas.<a href="#">Términos y condiciones</a></p>
-    </div>
-    <br>
-</footer>
+        <br>
+        <div class="legales__register">
+            <p>&nbsp © Pet Shop Animalia - Lo mejor para tus mascotas.<a href="#">Términos y condiciones</a></p>
+        </div>
+        <br>
+    </footer>
 
 </body>
 
 </html>
-
-
-
-
-
