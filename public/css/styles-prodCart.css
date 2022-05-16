@@ -133,7 +133,6 @@
  table, th, td {
     border-bottom: 1px solid black;
     border-collapse: collapse;
-    padding: 10px;
    
   }
 
@@ -158,10 +157,16 @@
     height: 40px
 }
 
+.imagenCarrito {
+    display: flex;
+    justify-content:right;
+    padding-right: 15px;
+   
+  }
 .imagenCarrito img {
    max-width: 100px;
   
-}
+ }
 
 .butons {
     display: flex;
