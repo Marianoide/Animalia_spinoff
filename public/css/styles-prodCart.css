@@ -157,15 +157,12 @@
     height: 40px
 }
 
-.imagenCarrito {
-    display: flex;
-    justify-content:right;
-    padding-right: 15px;
-   
-  }
 .imagenCarrito img {
-   max-width: 100px;
-  
+     display: flex;
+    justify-content:right;
+    padding-right: 20px;
+  max-width: 100px;
+   
  }
 
 .butons {
