@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos: idiomas, adaptabilidad, estilos, tipografías, iconos y título -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="/images/icon.png">
+    <title>Animalia - Lo mejor para tus mascotas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div class="navbarSuperior">
+        <a href="views/users/login.ejs"><i class="fa-solid fa-user-check"></i> Ingresar</a>
+        <p> | </p>
+        <a href="views/users/register.ejs"><i class="fa-solid fa-user-plus"></i> Registrarse</a>
+        <p> | </p>
+        <a href="#"><i class="fa-solid fa-heart"></i> Favoritos</a>
+        <p> | </p>
+        <a href="views/users/cart.ejs"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
+        &nbsp
+    </div>
+
+    <div class="navbarInferior">
+        <div class="logo"><a href="/"><img src="/images/logo.png" alt="Animalia"></a></div>
+
+        <nav class="secciones">
+
+            <ul>
+                <li><a href="#"><img src="/images/Iconos-Menu-perro.png">
+                        Perros</a></li>
+                <li><a href="#"><img src="/images/Iconos-Menu-gato.png">
+                        Gatos</a></li>
+                <li><a href="#"><img src="/images/Iconos-Menu-pajaro.png">
+                        Aves</a></li>
+                <li><a href="#"><img src="/images/Iconos-Menu-Roedor.png">
+                        Roedores</a></li>
+                <li><a href="#"><img src="/images/Iconos-Menu-peces.png">
+                        Peces</a></li>
+                <li><a href="#"><img src="/images/Iconos-Menu-oferta.png">
+                        Ofertas</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="burguer-menu"><i class="fa-solid fa-bars"></i></div>
+
+        <form action="#" method="POST">
+            <input type="search" placeholder="Búsqueda"></input> <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+    </div>
+</header>
