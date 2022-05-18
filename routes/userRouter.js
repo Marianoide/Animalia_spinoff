@@ -3,8 +3,8 @@ const router = express.Router();
 const path = require('path');
 const userController = require('../controllers/userController')
 
-router.get('/views/users/login.ejs', userController.login);
-router.get('/views/users/cart.ejs', userController.carrito);
-router.get('/views/users/register.ejs', userController.registro);
+router.get('/login', userController.login);
+router.get('/cart', userController.carrito);
+router.get('/register', userController.registro);
 
 module.exports = router;

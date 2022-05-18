@@ -10,12 +10,12 @@ app.use(express.static(path.resolve(__dirname, 'public')))
 
 // Motor de vistas
 app.set("view engine", "ejs");
-app.set("views", [
+/*app.set("views", [
     __dirname + "/views",
     __dirname + "/views/users",
     __dirname + "/views/products",
     __dirname + "/views/partials",
-]);
+]);*/ ///Declaracion de carpetas de MAS///
 
 //Servidor levantado en puerto 3000
 app.listen(3000, () => {
@@ -29,6 +29,6 @@ app.use('/products', productRouter);
 
 
 //404
-app.get("*", (req, res) => {
+/*app.get("*", (req, res) => {
     res.render(path.join(__dirname, "./views/404.ejs"));
-});
+});*/
