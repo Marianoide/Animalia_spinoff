@@ -2,13 +2,13 @@ const path = require('path');
 const userController = {
 
     login: (req, res, next) => {
-        res.render('login');
+        res.render('./users/login');
     },
     registro: (req, res, next) => {
-        res.render('register');
+        res.render('./users/register');
     },
     carrito: (req, res, next) => {
-        res.render('cart');
+        res.render('./users/cart');
     }
 };
 
