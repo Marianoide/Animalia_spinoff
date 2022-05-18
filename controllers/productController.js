@@ -2,13 +2,13 @@ const path = require('path');
 const productController = {
 
     detalle: (req, res, next) => {
-        res.render('productDetail');
+        res.render('./products/productDetail');
     },
     creacion: (req, res, next) => {
-        res.render('productCreate');
+        res.render('./products/productCreate');
     },
     edicion: (req, res, next) => {
-        res.render('productEdit');
+        res.render('./products/productEdit');
     }
 };
 
