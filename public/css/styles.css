@@ -291,7 +291,7 @@ article {
 
 .consejo {
     display: inblock-flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -346,12 +346,15 @@ footer {
 }
 
 .newsletter {
+    max-width: fit-content;
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
     justify-content: space-around;
     font-size: 16px;
     padding: 3px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .newsletter input {
