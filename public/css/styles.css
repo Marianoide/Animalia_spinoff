@@ -97,6 +97,12 @@
     border: solid 1px var(--verde);
     border-radius: 20px;
     font: inherit;
+    outline: var(--verde);
+    color: var(--gris);
+}
+
+.fa-magnifying-glass {
+    color: var(--verde);
 }
 
 .burguer-menu {
@@ -292,21 +298,22 @@ article {
 .consejo {
     display: inblock-flex;
     flex-wrap: nowrap;
-    max-width: 50%;
+    max-width: 48%;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
     line-height: 2rem;
+    opacity: 0.9;
     background-image: url("/images/animals-pattern.jpg");
     background-size: cover;
     border-radius: 20px;
     color: var(--gris);
     font-weight: bold;
-    border: 1px solid var(--gris);
+    border: 0.5px solid var(--gris);
 }
 
 .consejo img {
-max-width: 30%;
+max-width: 28%;
 border-radius: 50%;
 }
 
@@ -316,7 +323,7 @@ border-radius: 50%;
     position: static;
     bottom: 0;
     right: 0;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .up button {
@@ -354,24 +361,27 @@ footer {
     justify-content: space-around;
     font-size: 16px;
     padding: 3px;
+    font-weight: bold;
     align-items: center;
     margin: 0 auto;
+    color: var(--celeste);
 }
 
 .newsletter input {
-    padding: 6px 8px 7px;
+    padding: 7px 16px;
     font-size: 14px;
-    border: 1px solid var(--verde);
+    border: 1px solid var(--celeste);
     background-color: var(--blanco);
-    color: var(--verde);
+    color: var(--gris);
     max-width: max-content;
+    outline: var(--celeste);
 }
 
 .newsletter button {
     padding: 8px 10px;
     margin: 8px;
-    background-color: var(--gris);
-    border: 1px solid var(--gris);
+    background-color: var(--celeste);
+    border: 1px solid var(--celeste);
     font-family: 'Roboto', serif;
     color: var(--blanco);
 }
