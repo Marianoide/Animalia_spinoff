@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Administrador",
-      "surname": "admin",
+      "user": "admin",
       "email": "admin@animalia.com",
       "address": "Domicilio de admin",
       "password": "cheat123",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Usuario",
-      "surname": "user",
+      "user": "user",
       "email": "user@gmail.com",
       "address": "Domicilio del usuario",
       "password": "cheat1234",
