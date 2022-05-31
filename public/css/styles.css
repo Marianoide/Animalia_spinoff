@@ -245,14 +245,14 @@ article {
     display: inline-block;
 }
 
-.descripciones {
+.nombres {
     font-size: 16px;
     color: var(--verde);
     display: block;
     font-weight: 600;
 }
 
-.descripciones:hover {
+.nombres:hover {
     color: var(--celeste);
 }
 

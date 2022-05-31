@@ -54,7 +54,6 @@
         <div class="beneficios">
             <div> <img src="/images/tarjetas.svg">
                 <p>Múltiples medios de pago y promociones</p>
-
             </div>
             <div> <img src="/images/sucursal.svg">
                 <p>Retiro con descuentos en cualquiera de nuestras sucursales</p>
@@ -69,117 +68,22 @@
         <section>
             <h3 class="titulares">¡No te pierdas nuestras ofertas!</h3>
 
+            <% products.forEach(product => { %>
             <article>
                 <div class="card">
-                    <a href="/products/productDetail"><img src="/images/proplangato.webp"></a>
+                    <!-- <a href="/products/detail/<%= product.id %>"> -->
+                    <a href="/products/productDetail"><img src="<%=product.image%>"></a>
                     <div class="card-body">
                         <a href="/products/productDetail">
-                            <p class="descripciones">PRO PLAN GATO ADULTO 7.5 KG</p>
+                            <p class="nombres"><%=product.name%></p>
                         </a>
-                        <p class="precios">$8.156</p>
-                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
+                        <p class="precios">ANTES: $<%=product.price%></p>
+                        <p class="descuentos">¡AHORA: $<%=product.discount%>!</p>
                         <button>Agregar al carrito</button>
                     </div>
                 </div>
             </article>
-
-            <article>
-                <div class="card">
-                    <a href="/products/productDetail"><img src="/images/agilitysardina.webp"></a>
-                    <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="descripciones">AGILITY CATS SARDINA 340 GR</p>
-                        </a>
-                        <p class="precios">$246</p>
-                        <p class="descuentos">¡¡10% OFF!!: $221</p>
-                        <button>Agregar al carrito</button>
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <div class="card">
-                    <a href="/products/productDetail"><img src="/images/proplanperro.webp"></a>
-                    <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="descripciones">PRO PLAN PERRO ADULTO 15 KG</p>
-                        </a>
-                        <p class="precios">$8.908</p>
-                        <p class="descuentos">¡¡15% OFF!!: $7572</p>
-                        <button>Agregar al carrito</button>
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <div class="card">
-                    <a href="/products/productDetail"><img src="/images/purinaperro.webp"></a>
-                    <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="descripciones">PURINA DENTALIFE PERRO 119 GR</p>
-                        </a>
-                        <p class="precios">$8.156</p>
-                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
-                        <button>Agregar al carrito</button>
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <div class="card">
-                    <a href="/products/productDetail"><img src="/images/purinaperro.webp"></a>
-                    <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="descripciones">PURINA DENTALIFE PERRO 119 GR</p>
-                        </a>
-                        <p class="precios">$8.156</p>
-                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
-                        <button>Agregar al carrito</button>
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <div class="card">
-                    <a href="/products/productDetail"><img src="/images/proplangato.webp"></a>
-                    <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="descripciones">PRO PLAN GATO ADULTO 7.5 KG</p>
-                        </a>
-                        <p class="precios">$8.156</p>
-                        <p class="descuentos">¡¡20% OFF!!: $6525</p>
-                        <button>Agregar al carrito</button>
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <div class="card">
-                    <a href="/products/productDetail"><img src="/images/agilitysardina.webp"></a>
-                    <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="descripciones">AGILITY CATS SARDINA 340 GR</p>
-                        </a>
-                        <p class="precios">$246</p>
-                        <p class="descuentos">¡¡10% OFF!!: $221</p>
-                        <button>Agregar al carrito</button>
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <div class="card">
-                    <a href="/products/productDetail"><img src="/images/proplanperro.webp"></a>
-                    <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="descripciones">PRO PLAN PERRO ADULTO 15 KG</p>
-                        </a>
-                        <p class="precios">$8.908</p>
-                        <p class="descuentos">¡¡15% OFF!!: $7572</p>
-                        <button>Agregar al carrito</button>
-                    </div>
-                </div>
-            </article>
+            <% }) %> 
 
         </section>
         <br>
