@@ -71,12 +71,11 @@
             <% products.forEach(product => { %>
             <article>
                 <div class="card">
-                    <!-- <a href="/products/detail/<%= product.id %>"> -->
-                    <a href="/products/productDetail"><img src="<%=product.image%>"></a>
+                    <a href="/products/productDetail/<%=product.id %>">
+                   <img src="<%=product.image%>"></a>
                     <div class="card-body">
-                        <a href="/products/productDetail">
-                            <p class="nombres"><%=product.name%></p>
-                        </a>
+                        <a href="/products/productDetail/<%=product.id %>">
+                            <p class="nombres"><%=product.name%></p></a>
                         <p class="precios">ANTES: $<%=product.price%></p>
                         <p class="descuentos">¡AHORA: $<%=product.discount%>!</p>
                         <button>Agregar al carrito</button>

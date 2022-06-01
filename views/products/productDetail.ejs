@@ -21,24 +21,18 @@
 
     <!-- Aquí comienza el main -->
     <main>
-
-
         <section>
         <br>
-
         <h2 class="titulares">Detalle del producto elegido</h3>
     <article>
         <div class="detail__container">
-            <div class="card">
-                <a href="./views/productDetail.html"></a>
-                <div class="card-body">
-                    <a href="./views/productDetail.html">
-                        <a href="./views/productDetail.html"><img class="detail_prod__imag" src="/images/proplanperro.webp"></a>
-                        <p class="descripciones">PRO PLAN PERRO ADULTO 15 KG</p>
+            <div class="card__detail">
+                        <img class="detail_prod__imag" src="<%= producto.image%>"></a>
+                        <p class="descripciones"><%= producto.name%> </p>
                     </a>
-                    <p class="precios">$8.908</p>
+                    <p class="precios">ANTES: $<%=producto.price%></p>
                     <br>
-                    <p class="descuentos"><strong>¡¡ 15% OFF !! : $7572</strong></p>
+                    <p class="descuentos">¡AHORA: $<%=producto.discount%>!</p>
                     <br>
                     <label for="Cantidad" class="menu__cantidad">Cantidad:</label>
                     <br>
@@ -51,24 +45,15 @@
                     <br>
                     <br>
                     <button>Agregar al carrito</button>
-                    
-                </div>
                 <br>
-            <div class="card-body-detail">
                 <div class="cuotas__container">
                         <i class="fa-brands fa-cc-visa"></i>
                         <i class="fa-brands fa-cc-amex"></i>
                         <i class="fa-brands fa-cc-apple-pay"></i>
                         <i class="fa-brands fa-cc-paypal"></i>
-                        <p class="descripciones">6 cuotas sin interés <br> Consultar otras promociones bancarias</p>
+                        <p class="descripciones"><%= producto.description%></p>
                 </div>
-            </div>
-            <p class="tituloInfoProd">¿Por qué alimentar a mi mascota con Pro Plan Adulto?</p>
-            <p class="info__delprod">Creemos que la nutrición es la base de la salud a largo plazo y el punto de partida para una vida increíble de tu mascota.
-                Es por eso que PRO PLAN® es una buena elección para aquellos que desean alimentar a su mascota con una dieta basada en ciencia de vanguardia, arraigada en más de 90 años de resultados probados.
-                Ofrécele a tu mascota todos los nutrientes que necesita con los productos PURINA® PRO PLAN®, formulados con precisión para aprovechar al máximo los ingredientes de alta calidad, brindar una absorción eficiente de nutrientes y beneficios específicos comprobados en cada etapa de su vida, desde ayudar a respaldar la inmunidad en cachorros y gatitos hasta ayudar al bienestar en perros y gatos adultos. Todos nuestros productos ofrecen un gran sabor que les encantará.</p>
         </div>
-    </div>
     </article>
 </section>
 </div>

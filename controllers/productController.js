@@ -13,8 +13,11 @@ const productController = {
         res.render('./products/products', {products} );
     },
     detalle: (req, res, next) => {
-        res.render('./products/productDetail');
-    },
+        let productoBuscado = products.find( producto => {
+         return producto.id == req.params.id
+        })
+        res.render("./products/productDetail",{producto : productoBuscado});
+     },
     creacion: (req, res, next) => {
         res.render('./products/productCreate');
     },
