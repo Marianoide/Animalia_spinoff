@@ -33,7 +33,7 @@ const productController = {
         if (req.files[0] != undefined) {
             image = req.files[0].filename
         } else {
-            image = "/images/default-image.jpeg"
+            image = "/images/default-image.jpg"
         }
         let nuevoProducto = {
             id: products[products.length - 1].id + 1,
