@@ -43,7 +43,7 @@ El website de Animalia fue construido utilizando HTML5, CSS y JavaScript. Para l
 Se puede ver el proceso de construcción, sprint tras sprint, en los tableros de trabajo (Trello) que se fueron utilizando para dividir y realizar las distintas tareas durante la etapa de desarrollo inicial: https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia.
 <br>
 <br>
-<h2>👷 3. Clonar Animalia en tu PC?</h2>
+<h2>👷 3. Clonar Animalia en tu PC</h2>
 
 ```bash
 # Clonar el repositorio:
