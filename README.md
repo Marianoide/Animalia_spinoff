@@ -4,7 +4,7 @@
 Visitar sitio: https://animalia-dh.herokuapp.com/
 
 ## Tabla de Contenidos
-1. <a href="#">Información general del proyecto</a>  
+1. <a href="#-1-informaci%C3%B3n-general-del-proyecto">Información general del proyecto</a>  
 2. <a href="#%EF%B8%8F-2-elaboraci%C3%B3n-del-sitio">Elaboración del sitio</a>  
 3. <a href="#mortar_board-3-autores">Autores</a>  
   
