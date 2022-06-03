@@ -2,7 +2,7 @@
 Visitar sitio: https://animalia-dh.herokuapp.com/
 
 ## Tabla de Contenidos
-1. Info General  
+1. Información general del proyecto  
 2. Colaboradores  
 3. Sitios de Referencia  
   
@@ -11,8 +11,11 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
   ---  
     
 **1.**  
+## 💻 Información general del proyecto
 
-Creación de ecommerce "Animalia" para el fomento del cuidado, brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
+Proyecto integrador desarrollado durante el curso de Desarrollo Web Full Stack de [digitalhouse] (https://www.digitalhouse.com/ar/).
+<br>
+🐈 "Animalia" es el e-commerce de un petshop orientado al fomento del cuidado de las mascotas, a brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
 
 
 > **Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.**
@@ -26,7 +29,7 @@ Buscamos así crear soluciones reales para que tengan un entorno digno que les p
 **2.**  
 Enlace a tableros de trabajo:
                              Trello: https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia
-                             
+
 ## :mortar_board: Autores
 
 <table>
