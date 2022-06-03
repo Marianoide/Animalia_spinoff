@@ -1,4 +1,4 @@
-<h1 align="center">Animalia<h1>
+<h1 align="center">Animalia</h1>
 🐶 🐱 🐦 🐭 🐟
 <br>
 Visitar sitio: https://animalia-dh.herokuapp.com/
