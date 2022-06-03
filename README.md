@@ -1,5 +1,8 @@
 <h1>Animalia: lo mejor para tus mascotas</h1>
-🐶 🐱 🐦 🐭 🐟 Visitar sitio: https://animalia-dh.herokuapp.com/
+<br>
+🐶 🐱 🐦 🐭 🐟
+<br>
+Visitar sitio: https://animalia-dh.herokuapp.com/
 
 ## Tabla de Contenidos
 1. <a href="#-1-informaci%C3%B3n-general">Información general</a>  
