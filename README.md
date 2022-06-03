@@ -5,7 +5,7 @@
 Visitar sitio: https://animalia-dh.herokuapp.com/
 
 ## Tabla de Contenidos
-1. <a href="#-1-informaci%C3%B3n-general-del-proyecto">Información general del proyecto</a>  
+1. <a href="#-1-informaci%C3%B3n-general">Información general</a>  
 2. <a href="#%EF%B8%8F-2-elaboraci%C3%B3n-del-sitio">Elaboración del sitio</a>  
 3. <a href="#mortar_board-3-autores">Autores</a>  
   
@@ -13,7 +13,7 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
 
 ![e9abeeb4-6015-4d65-9486-77fc40ca5f62](https://user-images.githubusercontent.com/100479971/164115117-5990176e-ac1e-4db5-927b-f222dafb2893.jpg)
 
-<h2>💻 1. Información general del proyecto</h2>
+<h2>💻 1. Información general</h2>
 
 Proyecto integrador realizado durante el curso de Desarrollo Web Full Stack de Digital House: https://www.digitalhouse.com/ar/.
 <br>
