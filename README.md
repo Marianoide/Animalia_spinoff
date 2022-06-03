@@ -15,6 +15,7 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
 
 Proyecto integrador desarrollado durante el curso de Desarrollo Web Full Stack de [digitalhouse] (https://www.digitalhouse.com/ar/).
 <br>
+<br>
 🐈 "Animalia" es el e-commerce de un petshop orientado al fomento del cuidado de las mascotas, a brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
 
 
