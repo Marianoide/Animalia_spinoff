@@ -55,7 +55,7 @@ git clone https://github.com/Antariex/grupo3Animalia.git
 
 ```
 
-Hecho esto, podés abir tu navegador e ingresar a: `http://localhost:3000/` o en otro puerto de tu preferencia (el mencionado en el paso anterior).
+Hecho esto, podés abir tu navegador e ingresar a: `http://localhost:3000/` o en otro puerto que elijas (el mismo del paso anterior).
 <br>
 <br>
 <h2>:mortar_board: 4. Autores</h2>
