@@ -7,7 +7,8 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
 ## Tabla de Contenidos
 1. <a href="#-1-informaci%C3%B3n-general">Información general</a>  
 2. <a href="#%EF%B8%8F-2-elaboraci%C3%B3n-del-sitio">Elaboración del sitio</a>  
-3. <a href="#mortar_board-3-autores">Autores</a>  
+3. <a href="#mortar_board-4-autores">¿Cómo clonar Animalia en tu PC?</a>
+4. <a href="#mortar_board-4-autores">Autores</a>  
   
   ---  
 
@@ -41,22 +42,23 @@ El website de Animalia fue construido utilizando HTML5, CSS y JavaScript. Para l
 <br>
 Se puede ver el proceso de construcción, sprint tras sprint, en los tableros de trabajo (Trello) que se fueron utilizando para dividir y realizar las distintas tareas durante la etapa de desarrollo inicial: https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia.
 <br>
-# 👷 ¿Cómo ejecutar Animalia en tu PC?
+<br>
+<h2>👷 3. ¿Cómo clonar Animalia en tu PC?</h2>
 
 ```bash
 # Clonar el repositorio:
 git clone https://github.com/Antariex/grupo3Animalia.git
 
-# Entrar en Visual Studio Code (o algún otro IDE de su preferencia).
+# Entrar en Visual Studio Code (o algún otro IDE de tu preferencia).
 
 # Ejecutar o crear un servidor.
 
 ```
 
-Hecho esto, abra su navegador e ingrese a: `http://localhost:3000/` o en algún otro puerto de su preferencia (el configurado en el paso anterior).
+Hecho esto, podés abir tu navegador e ingresar a: `http://localhost:3000/` o en otro puerto de tu preferencia (el mencionado en el paso anterior).
 <br>
 <br>
-<h2>:mortar_board: 3. Autores</h2>
+<h2>:mortar_board: 4. Autores</h2>
 
 <table>
     <tr>
