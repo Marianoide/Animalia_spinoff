@@ -41,6 +41,20 @@ El website de Animalia fue construido utilizando HTML5, CSS y JavaScript. Para l
 <br>
 Se puede ver el proceso de construcción, sprint tras sprint, en los tableros de trabajo (Trello) que se fueron utilizando para dividir y realizar las distintas tareas durante la etapa de desarrollo inicial: https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia.
 <br>
+# 👷 ¿Cómo ejecutar Animalia en tu PC?
+
+```bash
+# Clonar el repositorio:
+git clone https://github.com/Antariex/grupo3Animalia.git
+
+# Entrar en Visual Studio Code (o algún otro IDE de su preferencia).
+
+# Ejecutar o crear un servidor.
+
+```
+
+Hecho esto, abra su navegador e ingrese a: `http://localhost:3000/` o en algún otro puerto de su preferencia (el configurado en el paso anterior).
+<br>
 <br>
 <h2>:mortar_board: 3. Autores</h2>
 
