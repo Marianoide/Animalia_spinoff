@@ -1,5 +1,3 @@
-![e9abeeb4-6015-4d65-9486-77fc40ca5f62](https://user-images.githubusercontent.com/100479971/164115117-5990176e-ac1e-4db5-927b-f222dafb2893.jpg)
-
 # Animalia.
 🐕 🐈 🐦 🐁 🐟
 <br>
@@ -11,7 +9,9 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
 3. Autores  
   
   ---  
-    
+
+![e9abeeb4-6015-4d65-9486-77fc40ca5f62](https://user-images.githubusercontent.com/100479971/164115117-5990176e-ac1e-4db5-927b-f222dafb2893.jpg)
+
 <h2>💻 1. Información general del proyecto</h2>
 
 Proyecto integrador realizado durante el curso de Desarrollo Web Full Stack de Digital House: https://www.digitalhouse.com/ar/.
