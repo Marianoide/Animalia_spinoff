@@ -30,8 +30,10 @@ Buscamos así crear soluciones reales para que tengan un entorno digno que les p
 ## 🛠️ 2. Elaboración del sitio  
   
 1) Desarrollo: El sitio fue construído utilizando HTML5, CSS y JavaScript.
+<br>
 2) Tableros de trabajo (Trello): https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia.
-3) Sitios de referencia:
+<br>
+3) Webssites que fueron utilizados como referencia:
 - www.veterinariasebastian.com  
 - www.petsmart.com  
 - www.miamipetconcierge.com  
