@@ -25,10 +25,10 @@ Animalia es el e-commerce de un petshop orientado al fomento del cuidado de las 
 Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores de animales, instituciones con y sin fines de lucro que tengan como objetivo, alimentar, cuidar y dar un mundo de posibilidades para aquellos animales que han nacido en circunstancias precarias o menos favorecidas, con menores recursos.
 <br>
 <br>
-> **Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.**
-<br>
-<br>
 Buscamos así crear soluciones reales para que tengan un entorno digno que les permita crecer y así poder contribuir y devolverles un poco de todo lo que ellos nos dan, que no es poco y se llama Amor Incondicional.  
+<br>
+<br>
+> **Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.**
 <br>
 <br>
 
