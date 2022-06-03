@@ -1,5 +1,5 @@
 # Animalia.
-🐕 🐈 🐦 🐁 🐟
+🐶 🐱 🐦 🐭 🐟
 <br>
 Visitar sitio: https://animalia-dh.herokuapp.com/
 
