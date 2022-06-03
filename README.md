@@ -10,7 +10,7 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
   
   ---  
     
-**1.** ## 💻 Información general del proyecto
+**💻 1. Información general del proyecto**
 
 Proyecto integrador realizado durante el curso de Desarrollo Web Full Stack de Digital House: https://www.digitalhouse.com/ar/.
 <br>
