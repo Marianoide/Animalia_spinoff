@@ -3,8 +3,8 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
 
 ## Tabla de Contenidos
 1. Información general del proyecto  
-2. Colaboradores  
-3. Sitios de Referencia  
+2. Elaboración del sitio  
+3. Autores  
   
 ![e9abeeb4-6015-4d65-9486-77fc40ca5f62](https://user-images.githubusercontent.com/100479971/164115117-5990176e-ac1e-4db5-927b-f222dafb2893.jpg)
   
@@ -25,13 +25,21 @@ Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores 
 <br>
 <br>
 Buscamos así crear soluciones reales para que tengan un entorno digno que les permita crecer y así poder contribuir y devolverles un poco de todo lo que ellos nos dan, que no es poco y se llama Amor Incondicional.  
+<br>
+<br>  
+## 🛠️ 2. Elaboración del sitio  
   
-  
-**2.**  
-Enlace a tableros de trabajo:
-                             Trello: https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia
-
-## :mortar_board: Autores
+1) Desarrollo: El sitio fue construído utilizando HTML5, CSS y JavaScript.
+2) Tableros de trabajo (Trello): https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia.
+3) Sitios de referencia:
+- www.veterinariasebastian.com  
+- www.petsmart.com  
+- www.miamipetconcierge.com  
+- www.kiwoko.com  
+- www.natural-life.com.ar
+<br>
+<br>
+## :mortar_board: 3. Autores
 
 <table>
     <tr>
@@ -65,12 +73,3 @@ Enlace a tableros de trabajo:
         </td>
    </tr>
 </table>
-
-  
-**3.**  
-  
-www.veterinariasebastian.com  
-www.petsmart.com  
-www.miamipetconcierge.com  
-www.kiwoko.com  
-www.natural-life.com.ar  
