@@ -18,7 +18,7 @@ Proyecto integrador realizado durante el curso de Desarrollo Web Full Stack de D
 <br>
 <br>
 🐕 🐈 🐦 🐁 🐟
-"Animalia" es el e-commerce de un petshop orientado al fomento del cuidado de las mascotas, a brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
+Animalia es el e-commerce de un petshop orientado al fomento del cuidado de las mascotas, a brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
 <br>
 <br>
 > **Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.**
