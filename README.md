@@ -31,7 +31,6 @@ Buscamos así crear soluciones reales para que tengan un entorno digno que les p
 > **Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.**
 <br>
 <br>
-
 <h2>🛠️ 2. Elaboración del sitio</h2>  
   
 El website de Animalia fue construido utilizando HTML5, CSS y JavaScript. Para la construcción y el diseño se utilizaron como referencia las siguientes webs:
