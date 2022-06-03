@@ -27,8 +27,8 @@ Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores 
 Buscamos así crear soluciones reales para que tengan un entorno digno que les permita crecer y así poder contribuir y devolverles un poco de todo lo que ellos nos dan, que no es poco y se llama Amor Incondicional.  
 <br>
 <br>
-## 💻 1. Información general del proyecto
-## 🛠️ 2. Elaboración del sitio  
+
+<h2>🛠️ 2. Elaboración del sitio</h2>  
   
 1) Desarrollo: El sitio fue construído utilizando HTML5, CSS y JavaScript.
 <br>
@@ -42,7 +42,7 @@ Buscamos así crear soluciones reales para que tengan un entorno digno que les p
 - www.natural-life.com.ar
 <br>
 <br>
-## :mortar_board: 3. Autores
+<h2>:mortar_board: 3. Autores</h2>
 
 <table>
     <tr>
