@@ -24,6 +24,7 @@ Animalia es el e-commerce de un petshop orientado al fomento del cuidado de las 
 <br>
 > **Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.**
 <br>
+<br>
 Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores de animales, instituciones con y sin fines de lucro que tengan como objetivo, alimentar, cuidar y dar un mundo de posibilidades para aquellos animales que han nacido en circunstancias precarias o menos favorecidas, con menores recursos.
 <br>
 <br>
@@ -49,7 +50,7 @@ Se puede ver el proceso de construcción, sprint tras sprint, en los tableros de
 # Clonar el repositorio:
 git clone https://github.com/Antariex/grupo3Animalia.git
 
-# Entrar en Visual Studio Code (o algún otro IDE de tu preferencia).
+# Entrar en VS Code (o algún otro IDE de tu preferencia).
 
 # Ejecutar o crear un servidor.
 
