@@ -19,7 +19,7 @@ Visitar sitio: https://animalia-dh.herokuapp.com/
 Proyecto integrador realizado durante el curso de Desarrollo Web Full Stack de Digital House: https://www.digitalhouse.com/ar/.
 <br>
 <br>
-Animalia es el e-commerce de un petshop orientado al fomento del cuidado de las mascotas, a brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
+Animalia es el e-commerce de un petshop orientado a fomentar el cuidado de las mascotas, a brindar servicios y soluciones con foco hacia la atención animal, estimulando la economía digital y de escala solidaria, apoyada en una logística responsable y eficiente.
 <br>
 <br>
 Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores de animales, instituciones con y sin fines de lucro que tengan como objetivo, alimentar, cuidar y dar un mundo de posibilidades para aquellos animales que han nacido en circunstancias precarias o menos favorecidas, con menores recursos.
