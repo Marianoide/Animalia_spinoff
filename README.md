@@ -45,7 +45,7 @@ Se puede ver el proceso de construcción, sprint tras sprint, en los tableros de
 
 ```bash
 # Clonar el repositorio:
-git clone https://github.com/Antariex/grupo3Animalia.git
+$ git clone https://github.com/Antariex/grupo3Animalia.git
 
 # Entrar en VS Code (o algún otro IDE de tu preferencia).
 
