@@ -1,4 +1,4 @@
-<h1 align="center">Animalia: lo mejor para tus mascotas</h1>
+<h1>Animalia: lo mejor para tus mascotas</h1>
 <br>
 🐶 🐱 🐦 🐭 🐟
 <br>
