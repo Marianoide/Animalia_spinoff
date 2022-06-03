@@ -27,7 +27,6 @@ Nuestro público target son todos aquellos pet lovers, cuidadores, entrenadores 
 <br>
 Buscamos así crear soluciones reales para que tengan un entorno digno que les permita crecer y así poder contribuir y devolverles un poco de todo lo que ellos nos dan, que no es poco y se llama Amor Incondicional.  
 <br>
-<br>
 > **Cuidar y querer a los animales es cuidar nuestro entorno, agradecer nuestro presente y valorar positivamente nuestro futuro.**
 <br>
 <h2>🛠️ 2. Elaboración del sitio</h2>  
