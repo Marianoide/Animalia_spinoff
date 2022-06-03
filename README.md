@@ -1,5 +1,4 @@
 <h1>Animalia: lo mejor para tus mascotas</h1>
-<br>
 🐶 🐱 🐦 🐭 🐟
 <br>
 Visitar sitio: https://animalia-dh.herokuapp.com/
