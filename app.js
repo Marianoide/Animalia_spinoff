@@ -22,7 +22,7 @@ app.use(methodOverride('_method'));
 app.set("view engine", "ejs");
 
 //Servidor levantado en puerto 3000
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, function() {
     console.log('Servidor corriendo en el puerto 3000');
 });
 
