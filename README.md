@@ -27,8 +27,40 @@ Buscamos así crear soluciones reales para que tengan un entorno digno que les p
 Enlace a tableros de trabajo:
                              Trello: https://trello.com/invite/b/co96aUDo/6686a4e08d027cf49e263b9f9167a8da/animalia
                              
-Copyrights y Derechos de autor reservados a:  
-Maria Eugenia Bruno, Fernando Miguez, Ariel Antequiera, Mariano Vélez.
+## :mortar_board: Autores
+
+<table>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/antariex">
+                <img src="https://avatars.githubusercontent.com/u/100479971?v=4" width="150px;" alt="Imagem de Ariel Antequiera" />
+                <br />
+                <sub><b>Ariel Antequiera</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/Marianoide">
+                <img src="https://avatars.githubusercontent.com/u/102563023?v=4" width="150px;" alt="Imagem de Mariano Vélez Miranda" />
+                <br />
+                <sub><b>Mariano Vélez Miranda</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/FernandoMig">
+                <img src="https://avatars.githubusercontent.com/u/102432412?v=4" width="150px;" alt="Imagem de Fernando Miguez" />
+                <br />
+                <sub><b>Fernando Miguez</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/MaruBruno">
+                <img src="https://avatars.githubusercontent.com/u/102558669?v=4" width="150px;" alt="Image de Maria Eugenia Bruno" />
+                <br />
+                <sub><b>Maria Eugenia Bruno</b></sub>
+            </a>
+        </td>
+   </tr>
+</table>
 
   
 **3.**  
