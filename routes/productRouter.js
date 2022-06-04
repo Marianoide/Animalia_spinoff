@@ -27,6 +27,6 @@ router.get('/productCreate', productController.almacenar);
 router.get('/productDetail/:id', productController.detalle);
 router.get('/productEdit/:id', productController.edicion);
 router.get('/productEdit/:id', productController.actualizar);
-//router.delete('/delete/:id', productsController.borrado); 
+router.delete('/delete/:id', productController.borrado); 
 
 module.exports = router;
