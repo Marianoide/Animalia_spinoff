@@ -31,14 +31,14 @@ Buscamos así crear soluciones reales para que tengan un entorno digno que les p
 <br>
 <h2>🛠️ 2. Elaboración del sitio</h2>  
   
-El website de Animalia fue construido utilizando HTML5, CSS y JavaScript. Para la construcción y el diseño se utilizaron como referencia las siguientes webs:
+El website de Animalia fue desarrollado utilizando HTML5, CSS y JavaScript. Para la construcción y el diseño se utilizaron como referencia las siguientes webs:
 - www.veterinariasebastian.com  
 - www.petsmart.com  
 - www.miamipetconcierge.com  
 - www.kiwoko.com  
 - www.natural-life.com.ar
 <br>
-Se puede ver el proceso de construcción, sprint tras sprint, en los tableros de trabajo (Trello) que se fueron utilizando para dividir y realizar las distintas tareas durante la etapa de desarrollo inicial: https://trello.com/b/co96aUDo/animalia.
+Se puede ver el proceso, sprint tras sprint, en los tableros de trabajo (Trello) que se fueron utilizando para dividir y realizar las distintas tareas durante las consecutivas etapas de desarrollo: https://trello.com/b/co96aUDo/animalia.
 <br>
 <br>
 <h2>👷 3. Clonar Animalia en tu PC</h2>
