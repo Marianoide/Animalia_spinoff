@@ -62,28 +62,28 @@ Hecho esto, podés abir tu navegador e ingresar a: `http://localhost:3000/` o en
     <tr>
         <td align="center">
             <a href="https://github.com/antariex">
-                <img src="https://avatars.githubusercontent.com/u/100479971?v=4" width="150px;" alt="Imagem de Ariel Antequiera" />
+                <img src="https://avatars.githubusercontent.com/u/100479971?v=4" width="150px;" alt="Imagen de Ariel Antequiera" />
                 <br />
                 <sub><b>Ariel Antequiera</b></sub>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/Marianoide">
-                <img src="https://avatars.githubusercontent.com/u/102563023?v=4" width="150px;" alt="Imagem de Mariano Vélez Miranda" />
+                <img src="https://avatars.githubusercontent.com/u/102563023?v=4" width="150px;" alt="Imagen de Mariano Vélez Miranda" />
                 <br />
                 <sub><b>Mariano Vélez Miranda</b></sub>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/FernandoMig">
-                <img src="https://avatars.githubusercontent.com/u/102432412?v=4" width="150px;" alt="Imagem de Fernando Miguez" />
+                <img src="https://avatars.githubusercontent.com/u/102432412?v=4" width="150px;" alt="Imagen de Fernando Miguez" />
                 <br />
                 <sub><b>Fernando Miguez</b></sub>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/MaruBruno">
-                <img src="https://avatars.githubusercontent.com/u/102558669?v=4" width="150px;" alt="Image de Maria Eugenia Bruno" />
+                <img src="https://avatars.githubusercontent.com/u/102558669?v=4" width="150px;" alt="Imagen de Maria Eugenia Bruno" />
                 <br />
                 <sub><b>Maria Eugenia Bruno</b></sub>
             </a>
