@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/css/styles-reg.css" rel="stylesheet">
+        <link href="/public/css/productCreate.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <link rel="icon" href="/images/icon.png">
         <title>Creación de producto - Animalia</title>
@@ -22,15 +22,15 @@
           <section class="section__container crate__product-section">
              <article class="article__container product__article">
               <div>
-                <h3 class="titulares">Formulario para creación y edición de productos en stock</h3>
+                <h3 class="titulares">Formulario para creación de productos en stock</h3>
                 <p>Las caracteristicas ingresadas pueden ser modificadas en cualquier momento</p>
                 </div>
-                <form action="/products/create" method="POST" enctype="multipart/form-data" class="create__product-form">
+                <form action="/views/products/productCreate" method="POST" enctype="multipart/form-data" class="create__product-form">
                   <!-- Nombre del producto -->
                   <br>
                 <div>
                   <label for="productName" class="form__label">Nombre del producto:</label>
-                  <input type="text" name="productName" placeholder="Complete este campo" class ="form__input" value="<%= locals.oldData? oldData.productName : null%>">
+                  <input type="text" name="productName" placeholder="Complete este campo" class ="form__input"></input>
                   <br>
                 </div>
                 <br>
@@ -39,9 +39,6 @@
                     <label for="productTarea" class="form__label" placeholder="Seleccione el tipo de tarea">Tipo de tarea</label>
                     <select name="productTarea" id="productTarea" class="form__input">
                         <option value="">Alta</option>
-                        <option value="">Baja</option>
-                        <option value="">Modificación</option>
-                        <option value="">Producto discontinuo</option>
                     </select>
                 </div>
                 <br>
@@ -50,11 +47,12 @@
                   <div>
                   <label for="productCategory" class="form__label" placeholder="Seleccione una categoria">Categoria:</label>
                   <select name="productCategory" id="productCategory" class="form__input">
-                    <option value="">Alimentos</option>
-                    <option value="">Juguetes</option>
-                    <option value="">Peluquería</option>
-                    <option value="">Veterinaria</option>
-                    <option value="">Ropa y Camas</option>
+                    <option value=""></option>
+                    <option value="">Perros</option>
+                    <option value="">Gatos</option>
+                    <option value="">Roedores</option>
+                    <option value="">Peces</option>
+                    <option value="">Ofertas</option>
                   </select>
                 </div>
                 <br>
@@ -73,11 +71,17 @@
                 </div>
                 <br>
                   <!-- Precio del producto -->
-                  <div>
+                <div>
                   <label for="productPrice" class="form__label">Precio:</label>
-                  <input type="text" name="productPrice" id="productPrice" class ="form__input" placeholder="$" value="<%= locals.oldData? oldData.productPrice: null%>"><br>
+                  <input type="text" name="productPrice" id="productPrice" class ="form__input" placeholder="$"></input> <br>
                 </div>
                 <br>
+                <!--Precio del producto con descuento-->
+                <div>
+                  <label for="Pricediscount" class="form__label">Precio con descuento:</label>
+                  <input type="text" name="Pricediscount" id="Priced" class ="form__input" placeholder="$"></input>
+                  <br>
+                </div>
                   <!-- Descripción del producto -->
                   <div>
                   <label for="productDescription" class="form__label">Escriba una descripción del producto</label>
