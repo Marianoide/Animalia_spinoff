@@ -27,12 +27,12 @@
                 <article>
                     <div class="detail__container">
                         <div class="card__detail">
-                            <img class="detail_prod__imag" src="<%= producto.image%>" title="<%=producto.name%>"></a>
+                            <img class="detail_prod__imag" src="<%= producto.image%>" title="<%= producto.name%>"></a>
                             <p class="descripciones"><%= producto.name%> </p>
                             </a>
-                            <p class="precios">ANTES: $<%=producto.price%></p>
+                            <p class="precios">ANTES: $<%= producto.price%></p>
                             <br>
-                            <p class="descuentos">¡AHORA: $<%=producto.discount%>!</p>
+                            <p class="descuentos">¡AHORA: $<%= producto.discount%>!</p>
                             <br>
                             <label for="Cantidad" class="menu__cantidad">Cantidad:</label>
                             <br>

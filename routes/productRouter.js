@@ -24,8 +24,8 @@ const upload = multer({
 router.get('/', productController.catalogo);
 router.get('/productCreate', productController.creacion);
 router.get('/productDetail/:id', productController.detalle);
-router.post('/productCreate', productController.almacenar); //post cambiado por mariano//
-router.get('/productEdit', productController.edicion);
+router.post('/productCreate',productController.almacenar); //post cambiado por mariano//
+router.get('/productEdit/:id', productController.edicion);
 router.put('/productEdit/:id', productController.actualizar);
 router.delete('/delete/:id', productController.borrado);
 
