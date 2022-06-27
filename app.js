@@ -5,9 +5,27 @@ const createError = require('http-errors');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const methodOverride = require('method-override');
+//const session = require('express-session');
+//const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
+
 
 // Express
 const app = express();
+
+//Session Middleware
+/*app.use(session({
+    secret: "silence pls, it's a secret",
+    resave: true,
+    saveUninitialized: false
+  }));
+
+// Cookie middleware
+app.use(cookies())
+
+// User logged middleware
+app.use(userLoggedMiddleware);
+
+*/
 
 //Middlewares - Disponibilidad de la carpeta public
 app.use(express.static(path.resolve(__dirname, 'public')))
