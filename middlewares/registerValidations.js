@@ -1,6 +1,7 @@
 const path = require('path')
 const { body } = require('express-validator');
 
+
 const validations = [
     body("nombreyapellido", "Por favor completa este campo").notEmpty(),
     body("user","Por favor elige un nombre de usuario").notEmpty(),
@@ -24,4 +25,5 @@ const validations = [
 ]
 
 module.exports = validations;
+
 
