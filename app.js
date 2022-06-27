@@ -6,26 +6,26 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const methodOverride = require('method-override');
 //const session = require('express-session');
-//const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
-
+const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
+const bcrypt = require('bcryptjs');
 
 // Express
 const app = express();
 
-//Session Middleware
+//Session Middleware//
 /*app.use(session({
     secret: "silence pls, it's a secret",
     resave: true,
     saveUninitialized: false
   }));
+*/
 
 // Cookie middleware
-app.use(cookies())
-
-// User logged middleware
-app.use(userLoggedMiddleware);
-
+/*app.use(cookies())
 */
+// User logged middleware
+//app.use(userLoggedMiddleware);
+
 
 //Middlewares - Disponibilidad de la carpeta public
 app.use(express.static(path.resolve(__dirname, 'public')))
@@ -49,13 +49,14 @@ app.listen(process.env.PORT || 3000, function() {
 
 // Ruta principal
 const mainRouter = require('./routes/mainRouter');
+
 //Ruta Users
-const userRouter = require('./routes/userRouter');
+//const userRouter = require('./routes/userRouter');
 //Ruta Products
 const productRouter = require('./routes/productRouter');
 
 app.use('/', mainRouter);
-app.use('/users', userRouter);
+//app.use('/users', userRouter);
 app.use('/products', productRouter);
 
 //404
