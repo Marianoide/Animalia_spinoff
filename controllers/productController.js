@@ -48,7 +48,7 @@ const productController = {
     edicion: (req, res, next) => {
         let id = req.params.id
         let product = products.find(product => product.id == id)
-        res.render('./products/productEdit',{product});
+        res.render('/productEdit/:id',{product});
     },
 
     actualizar: (req, res) => {

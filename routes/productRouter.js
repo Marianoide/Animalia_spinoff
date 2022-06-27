@@ -1,9 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const multer = require('multer')
+const multer = require('multer');
 const path = require('path');
-
-
+//const { body } = require('express-validator');
 const productController = require('../controllers/productController')
 
 
@@ -16,9 +15,18 @@ const storage = multer.diskStorage({
         cb(null, file.fieldname + '-' + uniqueSuffix)
     }
 })
-const upload = multer({
-    storage: storage
-})
+
+const multerFileFilter = (req, file, cb) => { 
+    let ext = path.extname(file.originalname)
+    let acceptedExtensions = ['.jpg', '.png', '.jpeg']
+    if(!acceptedExtensions.includes(ext)) {
+      return cb(null,false)
+    }
+    return cb(null,true)
+  }
+  //carga de variables entorno multer MARIANO
+
+const upload = multer({ storage,fileFilter: multerFileFilter });
 
 
 router.get('/', productController.catalogo);
