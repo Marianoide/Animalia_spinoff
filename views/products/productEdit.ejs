@@ -90,7 +90,7 @@
                   <label for="productDescription" class="form__label">Escriba una descripción del producto</label>
                   <br>
                   <br>
-                  <textarea type="text" name="productDescription" value="<%= product.description %>" placeholder="Escriba aqui los detalles del producto."><%= locals.oldData? oldData.productDescription : null%></textarea>
+                  <textarea  maxlength="600" type="text" name="productDescription" value="<%= product.description %>" placeholder="<%= product.productDescription %>"><%= locals.oldData? oldData.productDescription : null%></textarea>
                 </div>
                 <br>
                   <div>
