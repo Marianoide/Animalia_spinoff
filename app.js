@@ -11,7 +11,7 @@ const app = express();
 
 //Middlewares - Disponibilidad de la carpeta public
 app.use(express.static(path.resolve(__dirname, 'public')))
-//app.use(express.urlencoded(( extended: false )));
+app.use(express.urlencoded( {extended: false} ));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(cookieParser());
