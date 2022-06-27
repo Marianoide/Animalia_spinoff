@@ -22,17 +22,17 @@ const storage = multer.diskStorage({
   /* Multer SEND */
   const upload = multer({ storage });
 
-  /*Ruta del Login*/
-router.get('./users/login',guestMiddleware, userController.login);
+  /*Ruta del Login*/ //HAY QUE AGREGAR COMO 2DO PARAMETRO EL GUESTMIDDLEWARE
+router.get('/login', userController.login);
 //router.post('./users/login',userController.loginValidations);
 
-/*Ruta del Logout */
-router.get('/logout', UsersController.logout)
+/*Ruta del Logout */ //HAY QUE AGREGAR COMO 2DO PARAMETRO EL GUESTMIDDLEWARE
+//router.get('/logout', usersController.logout)
 
 /* Register */
-router.get('/users/register', guestMiddleware, userController.login);
-router.post('./user/register', upload.single('avatar'), validations, userController.create);
-router.get('/register/success', userController.registerSuccessful);
+router.get('/register', userController.registro);
+// router.post('./user/register', upload.single('avatar'), validations, userController.create);
+//router.get('/register/success', userController.registerSuccessful);
 
 /*hay que crear vista de profile a futuro*/
 

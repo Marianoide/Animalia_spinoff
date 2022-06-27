@@ -5,7 +5,7 @@ const createError = require('http-errors');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const methodOverride = require('method-override');
-//const session = require('express-session');
+const session = require('express-session');
 const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
 const bcrypt = require('bcryptjs');
 
@@ -13,12 +13,11 @@ const bcrypt = require('bcryptjs');
 const app = express();
 
 //Session Middleware//
-/*app.use(session({
+app.use(session({
     secret: "silence pls, it's a secret",
     resave: true,
     saveUninitialized: false
   }));
-*/
 
 // Cookie middleware
 /*app.use(cookies())
@@ -51,12 +50,12 @@ app.listen(process.env.PORT || 3000, function() {
 const mainRouter = require('./routes/mainRouter');
 
 //Ruta Users
-//const userRouter = require('./routes/userRouter');
+const userRouter = require('./routes/userRouter');
 //Ruta Products
 const productRouter = require('./routes/productRouter');
 
 app.use('/', mainRouter);
-//app.use('/users', userRouter);
+app.use('/users', userRouter);
 app.use('/products', productRouter);
 
 //404
