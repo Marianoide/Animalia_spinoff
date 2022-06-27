@@ -1,4 +1,4 @@
-// Requieres
+// Requires
 const express = require('express');
 const path = require('path');
 const createError = require('http-errors');
@@ -11,9 +11,12 @@ const app = express();
 
 //Middlewares - Disponibilidad de la carpeta public
 app.use(express.static(path.resolve(__dirname, 'public')))
+//Argument de put y delete
 app.use(express.urlencoded( {extended: false} ));
-app.use(logger('dev'));
 app.use(express.json());
+
+
+app.use(logger('dev'));
 app.use(cookieParser());
 app.use(methodOverride('_method'));
 
@@ -21,14 +24,16 @@ app.use(methodOverride('_method'));
 // Motor de vistas
 app.set("view engine", "ejs");
 
-//Servidor levantado en puerto 3000
+//Levantando Servidor en Puerto 3000
 app.listen(process.env.PORT || 3000, function() {
     console.log('Servidor corriendo en el puerto 3000');
 });
 
-// Rutas
+// Ruta principal
 const mainRouter = require('./routes/mainRouter');
+//Ruta Users
 const userRouter = require('./routes/userRouter');
+//Ruta Products
 const productRouter = require('./routes/productRouter');
 
 app.use('/', mainRouter);
