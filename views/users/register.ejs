@@ -23,47 +23,51 @@
     <main>
         <div class="barraSeparacion"></div>
         <div class="formulario">
-
-            <h3>Completá los siguientes datos para crear tu cuenta:</h3>
+            <h3>¡Completá los siguientes datos para crear tu cuenta y disfruta de los beneficios de ser parte de Animalia!</h3>
             <br>
-            <form method="POST" action="#">
+             <!-- ERRORS -->
+           <% if (locals.errors) { %>
+            <div class="errors__container">
+              <ul>
+                <% for (let error in errors) {%>
+                  <li class="error-msg__text"><%= errors[error].msg%></li>
+                <% } %>
+              </ul>
+            </div>
+            <% } %>
+            <!-- ERRORS END -->
+            <form action="/views/users/register" method="POST" enctype="multipart/form-data">
 
                 <label>Nombre y apellido</label>
-                <p><input type="text" name="nombre" placeholder="Ej: Perros Gatos" minlength="4" maxlength="30" required>
+                <p><input type="text" name="nombre" placeholder="Ingrese su nombre" required>
                     </input></p>
                 <br>
                 <label>Nombre de usuari@</label>
-                <p><input type="text" name="usuario" placeholder="Ej: cachorro" minlength="4" maxlength="12" required>
+                <p><input type="text" name="usuario" placeholder="Ingrese su usuario" minlength="4" maxlength="12" required>
                     </input></p>
                 <br>
                 <label>E-mail</label>
-                <p><input type="email" name="email" placeholder="Ej: perro@gato.com.ar" required>
+                <p><input type="email" name="email" placeholder="Ingrese su correo electronico" required>
                     </input></p>
                 <br>
                 <label>Fecha de nacimiento</label>
                 <p><input type="date" name="fecha" value="2020-03-19" required>
                     </input></p>
                 <br>
-                <label>Contraseña: </label>
-                <p><input type="password" name="password" placeholder="Al menos 6 caracteres" minlength="6"
-                        maxlength="10" required>
-                    </input></p>
+                <label for="images" class="form__label">Foto de Perfil *</label><br>
+                <p><input type="file" name="avatar" class="form__input" accept=".jpg" multiple></p>
+                <label> Elige una contraseña </label>
+                <p><input type="password" name="password" placeholder="Al menos 6 caracteres alfanuméricos"required></input></p>
+                    <!-- Pendiente boton para mostrar contraseña -->
                 <br>
-                <label>Confirmar: &nbsp&nbsp</label>
+                <label>Reingresá la contraseña elegida</label>
                 <p><input type="password" name="repassword" placeholder="Confirmá tu contraseña" minlength="6"
                         maxlength="10" required>
                     </input></p>
-                <p>(i) La contraseña debe tener mínimo 6 caracteres.</p>
+                <p>(*) La contraseña debe tener mínimo 6 caracteres.</p>
                 <br>
                 <br>
-
-                <button type="reset" class="resetButton">
-                    Borrar
-                </button>
-
-                <button type="submit" class="sendButton"><a href="/">
-                        Enviar
-                    </a></button>
+                <button type="submit" value="Crear cuenta"><a href="/">Crear cuenta</a></button>
             </form>
             <br>
             <br>
