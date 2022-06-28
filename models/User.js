@@ -1,8 +1,9 @@
 // CRUD (Create, Read, Update, Delete)
+
 const fs = require('fs')
 
 const User = {
-  filename: './data/users/users.json',
+  filename: './data/users.json',
   getData: function () {
     return JSON.parse(fs.readFileSync(this.filename, 'utf-8'))
   },
@@ -20,12 +21,12 @@ const User = {
   findByPK: function (id) {
     let allUsers = this.findAll();
     let userFound = allUsers.find(user => user.id == id)
-    return userFound // Devuelve undefined si no encuentra al usuario
+    return userFound // SINO ENCUENTRA EL USUARIO DEVUELVE UNDEFINED
   },
   findByField: function (field,text) {
     let allUsers = this.findAll();
     let userFound = allUsers.find(user => user[field] == text)
-    return userFound // Devuelve undefined si no encuentra al usuario
+    return userFound // SINO ENCUENTRA EL USUARIO DEVUELVE UNDEFINED
   },
   create: function (userData) {
     let allUsers = this.findAll();
