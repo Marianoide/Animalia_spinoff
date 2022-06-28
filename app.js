@@ -7,7 +7,6 @@ const methodOverride = require('method-override');
 const session = require('express-session');
 const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
 
-const bcrypt = require('bcryptjs');
 
 // Express
 const app = express();
@@ -22,9 +21,10 @@ app.use(session({
 
 // Cookie middleware
 
-/*app.use(cookies())
-*/
+//app.use(cookies())
+
 // User logged middleware
+
 //app.use(userLoggedMiddleware);
 
 
