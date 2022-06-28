@@ -1,16 +1,17 @@
 // Requires
 const express = require('express');
 const path = require('path');
-const createError = require('http-errors');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const methodOverride = require('method-override');
 const session = require('express-session');
-//const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
+const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
+
 const bcrypt = require('bcryptjs');
 
 // Express
 const app = express();
+
 
 //Session Middleware//
 app.use(session({
@@ -20,10 +21,12 @@ app.use(session({
   }));
 
 // Cookie middleware
+
 /*app.use(cookies())
 */
 // User logged middleware
-//app.use(userLoggedMiddleware);
+app.use(userLoggedMiddleware);
+
 
 
 //Middlewares - Disponibilidad de la carpeta public
