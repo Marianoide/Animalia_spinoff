@@ -25,7 +25,7 @@ app.use(session({
 /*app.use(cookies())
 */
 // User logged middleware
-app.use(userLoggedMiddleware);
+//app.use(userLoggedMiddleware);
 
 
 
