@@ -2,10 +2,10 @@ const express = require('express');
 const router = express.Router();
 const multer = require('multer');
 const path = require('path');
-//const { body } = require('express-validator');
+const { body } = require('express-validator');
 const productController = require('../controllers/productController')
 
-
+//hay que debugear el multer para la carga de archivos e imagenes//
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'public/images/products')
@@ -32,9 +32,9 @@ const upload = multer({ storage,fileFilter: multerFileFilter });
 router.get('/', productController.catalogo);
 router.get('/productCreate', productController.creacion);
 router.get('/productDetail/:id', productController.detalle);
-router.post('/productCreate',productController.almacenar); //post cambiado por mariano//
+router.post('/productCreate',upload.single('productImg'),productController.almacenar);
 router.get('/productEdit/:id', productController.edicion);
-router.put('/productEdit/:id', productController.actualizar);
+router.put('/productEdit/:id',upload.single('productImg'), productController.actualizar);
 router.delete('/delete/:id', productController.borrado);
 
 module.exports = router;

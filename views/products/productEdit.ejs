@@ -69,7 +69,7 @@
                   <div>
                   <label for="productImg" class="form__label">Elige una imagen</label>
                   <br>
-                  <input type="file" name="" id="productImg" class ="form__input" accept="image/*" value="<%= locals.oldData? oldData.productImg : null%>"><br>
+                  <input type="file" name="productImg" id="productImg" class ="form__input" accept="image/*" value="<%= locals.oldData? oldData.productImg : null%>"><br>
                 </div>
                 <br>
                   <!-- Precio del producto -->
@@ -81,7 +81,7 @@
                 <!--Precio del producto con descuento-->
                 <div>
                   <label for="Pricediscount" class="form__label">Precio con descuento:</label>
-                  <input type="text" name="Pricediscount" value="<%= product.discount %>" id="Priced" class ="form__input" placeholder="$"></input>
+                  <input type="text" name="priceDiscount" value="<%= product.discount %>" id="Priced" class ="form__input" placeholder="$"></input>
                   <br>
                 </div>
                   <!-- Descripción del producto -->

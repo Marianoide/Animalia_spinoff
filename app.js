@@ -11,7 +11,6 @@ const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware');
 // Express
 const app = express();
 
-
 //Session Middleware//
 app.use(session({
     secret: "silence pls, it's a secret",
@@ -19,18 +18,15 @@ app.use(session({
     saveUninitialized: false
   }));
 
-// Cookie middleware
-
-//app.use(cookies())
-
 // User logged middleware
 
-//app.use(userLoggedMiddleware);
+app.use(userLoggedMiddleware);
 
 
 
 //Middlewares - Disponibilidad de la carpeta public
 app.use(express.static(path.resolve(__dirname, 'public')))
+
 //Argument de put y delete
 app.use(express.urlencoded( {extended: false} ));
 app.use(express.json());
