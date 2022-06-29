@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"id": 1,
 		"name": "PROPLAN GATO ADULTO 7.5 KG",
 		"price": 8156,
@@ -106,15 +105,5 @@
 		"image": "/images/peinegatos.webp",
 		"category": "gatos",
 		"description": "Peine apto para todo tipo de pelaje. Ayuda a detectar pulgas y huevos, también elimina las liendres."
-	},
-	{
-		"name": "Prueba edicion 3",
-		"category": "perros",
-		"weight": "50",
-		"price": "41545646",
-		"discount": "56456456",
-		"description": "lasjdahdjiasgdhasdhoasdhljas",
-		"id": 1656467196749,
-		"thumbnail": "1656470082817-img.jpg"
 	}
-]
+	]
