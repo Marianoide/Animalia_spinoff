@@ -1,22 +1,40 @@
 [
-    {
-      "id": 1,
-      "name": "Administrador",
-      "user": "admin",
-      "email": "admin@animalia.com",
-      "address": "Domicilio de admin",
-      "password": "cheat123",
-      "category": "vendedor",
-      "image": "/public/images/logo.png"
-    },
-    {
-      "id": 2,
-      "name": "Usuario",
-      "user": "user",
-      "email": "user@gmail.com",
-      "address": "Domicilio del usuario",
-      "password": "cheat1234",
-      "category": "comprador",
-      "image": "/public/images/logo.png"
-    }
-  ]
+	{
+		"id": 1,
+		"name": "Administrador",
+		"user": "admin",
+		"email": "admin@animalia.com",
+		"address": "Domicilio de admin",
+		"password": "cheat123",
+		"category": "vendedor",
+		"image": "/public/images/logo.png"
+	},
+	{
+		"id": 2,
+		"name": "Usuario",
+		"user": "user",
+		"email": "user@gmail.com",
+		"address": "Domicilio del usuario",
+		"password": "cheat1234",
+		"category": "comprador",
+		"image": "/public/images/logo.png"
+	},
+	{
+		"id": 3,
+		"nombreyapellido": "Fernando Prueba",
+		"user": "ferdev",
+		"email": "ferdev@dev.com",
+		"fecha": "2020-03-19",
+		"password": "$2a$10$0xVJgdrUwxGUXVWmU01Kue/tOhBswcCqIgInNK3JYN47v7zFxa0B6",
+		"avatar": "1656470853079-userImg.jpg"
+	},
+	{
+		"id": 4,
+		"nombreyapellido": "PRueba2",
+		"user": "prueba2",
+		"email": "test2@gmail.com",
+		"fecha": "2020-03-19",
+		"password": "$2a$10$ntZo8uKpf086ttompD9udejs6Ke.6aylAWMQQmov6SRpdZLKKu.9O",
+		"avatar": "1656471094545-userImg.jpg"
+	}
+]
